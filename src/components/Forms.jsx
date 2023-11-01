@@ -102,7 +102,7 @@ const Forms = (props) => {
           </button>
           <button disabled = {text.length === 0}
             type="button"
-            className={`btn btn-dark mx-4 my-2 text-${props.mode === 'light'?'dark':'light'}`}
+            className={"btn btn-dark mx-4 my-2 text-light"}
             onClick={handleCopyClick}
             >
             copy

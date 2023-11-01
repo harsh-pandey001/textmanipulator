@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar title={"Fakebook"} name={name} toggle={toggle} mode={mode} />
+      <Navbar title={"Text-Manipulator"} name={name} toggle={toggle} mode={mode} />
         <Alert alert={alert} />
 
         <Routes>
